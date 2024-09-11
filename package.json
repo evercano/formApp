@@ -5,6 +5,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "Cometnario1:": "Los siguiente scrips sirven para hacer un build en la carpeta docs: (INICIO)",
+    "delete:docs": "del docs",
+    "build:href": "ng build --base-href ./",
+    "copy:dist": "copyfiles dist/form-app/browser/* ./docs -f",
+    "Cometnario2:": "SCRIP FINAL:",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
+    "Cometnario3:": "(FINAL)",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:formApp": "node dist/form-app/server/server.mjs"
